@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/csmajs/achad006/lab-02-unit-integration-testing-ashnachadha/c-echo.h
+iostream
+-
+
+/home/csmajs/achad006/lab-02-unit-integration-testing-ashnachadha/main.cpp
+c-echo.h
+/home/csmajs/achad006/lab-02-unit-integration-testing-ashnachadha/c-echo.h
+
